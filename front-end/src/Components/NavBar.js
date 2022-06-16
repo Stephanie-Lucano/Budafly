@@ -3,6 +3,7 @@ import Search from "./Search";
 import Product from "./singleProduct";
 
 const NavBar = ({ login }) => {
+  const URL = "http://localhost:3333";
   return (
     /*<div>
       <nav className="nav">
@@ -39,7 +40,7 @@ const NavBar = ({ login }) => {
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://budafly.netlify.app/">
+        <a class="navbar-item" href={URL}>
           <img
             src="https://i.ibb.co/GWbsnBR/Screen-Shot-2022-05-19-at-12-02-14-PM.png"
             alt=""

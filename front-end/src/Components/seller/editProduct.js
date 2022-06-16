@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
 const EditProductForm = () => {
-  const URL = process.env.REACT_APP_API_URL;
+  const URL = "http://localhost:3333";
   const { id, pid } = useParams();
   const navigate = useNavigate();
 
