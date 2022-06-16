@@ -1,5 +1,14 @@
 \c bud_dev;
 
+INSERT INTO users (firstname, lastname, email, phone_number)
+VALUES 
+('Seller', 'One', 'ymail1@ymail.com', '212-111-1111'),
+('Seller', 'Two', 'ymail2@ymail.com', '212-111-1112'),
+('Seller', 'Three', 'ymail3@ymail.com', '212-111-1113'),
+('Seller', 'Four', 'hmail4@ymail.com', '212-111-1114'),
+('Seller', 'Five', 'imail5@ymail.com', '212-111-1115'),
+('Seller', 'Six', 'jmail6@ymail.com', '212-111-1116');
+
 INSERT INTO products (name, cannabinoid, type, description, feelings, negatives, price, image, user_id) 
 VALUES
 ('Wedding Cake', 'THC 18% CBG 1%', 'Hybrid', 'Wedding Cake, also known as "Triangle Mints #23," is a potent type of indica-hybrid marijuana strain made by crossing Triangle Kush with Animal Mints. Fun fact: In Canada, this strain is known as Pink Cookies. The Wedding Cake strain provides relaxing and euphoric effects that calm the body and mind. This strain yields a rich and tangy flavor profile with undertones of earthy pepper. Medical marijuana patients choose Wedding Cake to help relieve symptoms associated with pain, insomnia and appetite loss. Consumers with a low THC tolerance should enjoy this strain with an extra slice of care due to its high THC content.', 'Relaxed, Happy, Giggly', 'Dry Mouth, Anxious, Paranoid', 42, 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mailorder-marijuana.com%2Fwp-content%2Fuploads%2F2019%2F05%2FWedding-Cake-600x600-600x600.jpg&f=1&nofb=1', 2),
@@ -42,13 +51,3 @@ VALUES
 ('Slurricane', 'THC 19% CBG 1%', 'Indica', 'Slurricane is an indica marijuana strain made by crossing Do-Si-Dos with Purple Punch. Slurricane produces relaxing effects that come on slowly. This strain has a sweet flavor profile, with subtle grape and sugary berries. Slurricane is the ideal strain for relaxing after a long day and will likely leave you locked to your sofa. Medical marijuana patients choose this strain to help relieve symptoms associated with insomnia.', 'Sleepy, Relaxed, Hungry', 'Headache, Dry Eyes, Dizzy', 68 , 'https://420spot.org/wp-content/uploads/2020/01/slurricane_2020_01.jpg', 2),
 ('Rocky Road Brownies', 'THC 6% CBD 3%', 'Hybrid', 'Everything you love about classic brownies, but with that green touch.','Energetic, Talkative, Creative', 'Paranoid, Dry Mouth, Dry Eyes', 48, 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwakeandbake.co%2Fwp-content%2Fuploads%2FDSC_0141-1.jpg%3Ffit%3D802%252C1200%26ssl%3D1&f=1&nofb=1', 2),
 ('Ice Cream Cake','THC 23% CBG 1%', 'Indica', 'Ice Cream Cake is an indica marijuana strain made by crossing Wedding Cake with Gelato #33. This strain offers sedating effects that leave your mind and body completely relaxed. Ice Cream Cake features a creamy flavor profile with sweet hints of vanilla and sugary dough. This strain is reported by medical marijuana patients and consumers to have calming effects that help with pain, sleep, and anxiety. Ice Cream Cake weed is ideal for night time use when you have nothing important to do except watch TV and fall asleep. Growers say this strain has light green and purple buds that are completely flushed with icy trichomes.', 'Sleepy, Relaxed, Hungry', 'Headache, Dizzy, Anxious', 62, 'https://www.ie420supply.com/wp-content/uploads/2019/05/SPACE-COOKIES-STRAIN-IE-420-SUPPLY-RIVERSIDE-DISPENSARY-NEARBY-WEED-CLINIC-CORONA-CALIFORNIA.jpg', 5);
-
-
-INSERT INTO users (firstname, lastname, email, phone_number)
-VALUES 
-('Seller', 'One', 'ymail1@ymail.com', '212-111-1111'),
-('Seller', 'Two', 'ymail2@ymail.com', '212-111-1112'),
-('Seller', 'Three', 'ymail3@ymail.com', '212-111-1113'),
-('Seller', 'Four', 'hmail4@ymail.com', '212-111-1114'),
-('Seller', 'Five', 'imail5@ymail.com', '212-111-1115'),
-('Seller', 'Six', 'jmail6@ymail.com', '212-111-1116');
