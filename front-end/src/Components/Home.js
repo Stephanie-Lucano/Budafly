@@ -24,41 +24,39 @@ const Home = ({ addItem }) => {
   const allProducts = products.map((product, i) => {
     return (
       <div class="column is-4">
-        <div class="card mt-4 py-3">
-          <div class="card-image pr-3 pl-4 has-background-primary ">
-            <figure class="image is-128x128 ">
-              <img src={product.image} alt={product.description} />
-            </figure>
-          </div>
+        <Link to={`/products/${product.id}`}>
           <div class="card">
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">{product.name}</p>
-                  <p class="subtitle is-6">${product.price}</p>
-                </div>
-              </div>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  class="has-ratio"
+                  width="96"
+                  src={product.image}
+                  alt={product.name}
+                />
+              </figure>
+            </div>
 
-              <div class="media-content">
-                <Link className="item-link" to={`/products/${product.id}`}>
-                  {" "}
-                  More details
-                </Link>
-                <br></br>
-                <footer class="card-footer">
-                  <div class="buttons">
-                    <button
-                      class="button is-primary"
-                      onClick={() => addItem(product)}
-                    >
-                      <strong>Add To Cart</strong>
-                    </button>
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-6">{product.name}</p>
+                    <p class="subtitle is-6">${product.price}</p>
                   </div>
-                </footer>
+                </div>
+                <div class="buttons">
+                  <button
+                    class="button is-link is-normal is-responsive"
+                    onClick={() => addItem(product)}
+                  >
+                    <strong>Add To Cart</strong>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     );
   });
@@ -66,7 +64,7 @@ const Home = ({ addItem }) => {
   return (
     <div class="section is-centered">
       <div class="container">
-        <div class="columns is-multiline">{allProducts}</div>
+        <div class="columns is-multiline is-desktop">{allProducts}</div>
       </div>
     </div>
   );
