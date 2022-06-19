@@ -25,7 +25,8 @@ const Home = ({ addItem }) => {
     return (
       <div class="column is-4">
         <Link to={`/products/${product.id}`}>
-          <div class="card">
+          {/* <div class="card"> */}
+          <div class="block">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img
@@ -36,25 +37,25 @@ const Home = ({ addItem }) => {
                 />
               </figure>
             </div>
-
-            <div class="card">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title is-6">{product.name}</p>
-                    <p class="subtitle is-6">${product.price}</p>
-                  </div>
-                </div>
-                <div class="buttons">
-                  <button
-                    class="button is-link is-normal is-responsive"
-                    onClick={() => addItem(product)}
-                  >
-                    <strong>Add To Cart</strong>
-                  </button>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-6">{product.name}</p>
+                  <p class="subtitle is-6">${product.price}</p>
                 </div>
               </div>
-            </div>
+              {/* <div class="content">
+                <div class="buttons">
+                  <button
+                    class="button is-link is-rounded is-normal is-responsive"
+                    onClick={() => addItem(product)}
+                  >
+                    <strong>Add to Cart</strong>
+                  </button>
+                </div>
+              </div> */}
+            {/* </div> */}
+          </div>
           </div>
         </Link>
       </div>
