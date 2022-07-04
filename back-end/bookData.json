@@ -1,0 +1,48 @@
+{
+    "books" : [
+        {
+            "id": 1,
+            "title": "I am Billie Jean King",
+            "author": "Brad Meltzer",
+            "illustrator": "Christopher Eliopoulos", 
+            "description": "Billie Jean King is one of the greatest tennis players of all time. Read about this amazing woman athlete in the seventeenth picture book in the New York Times bestselling series of biographies about heroes. (Cover may vary) This friendly, fun biography series focuses on the traits that made our heroes great--the traits that kids can aspire to in order to live heroically themselves. Each book tells the story of one of America's icons in a lively, conversational way that works well for the youngest nonfiction readers and that always includes the hero's childhood influences. At the back are an excellent timeline and photos. This volume features Billie Jean King, the world champion tennis player who fought successfully for women's rights. From a young age, Billie Jean King loved sports--especially tennis! But as she got older, she realized that plenty of people, even respected male athletes, didn't take women athletes seriously. She set to prove them wrong and show girls everywhere that sports are for everyone, regardless of gender. This friendly, fun biography series inspired the PBS Kids TV show Xavier Riddle and the Secret Museum. One great role model at a time, these books encourage kids to dream big. Included in each book are: - A timeline of key events in the hero's history - Photos that bring the story more fully to life - Comic-book-style illustrations that are irresistibly adorable - Childhood moments that influenced the hero - Facts that make great conversation-starters - A virtue this person embodies: Billie Jean King's determination opened the door for countless other atheletes. You'll want to collect each book in this dynamic, informative series!",
+            "genres": ["Biography", "Children's literature", "Children's non-fiction literature"], 
+            "price": 15.99,
+            "series": true, 
+            "title-of-series": "Ordinary People Change The World"
+        }, 
+        {
+            "id": 2, 
+            "title": "How to Catch a Dragon",
+            "author": "Adam Wallace",
+            "illustrator": "Andy Elkerton", 
+            "description": "From the #1 New York Times and USA Today bestselling How to Catch series comes an all-new dragon story, a great Chinese New Year book for kids! Do you have what it takes to snag a dragon? The How to Catch kids are off again, this time trying to catch a dragon as they chase him through Chinese New Year celebrations! Set in China during the Spring Festival, otherwise known as Chinese New Year, the wily dragon will have to avoid trap after trap as the kids run through paper lanterns, red lunar envelopes, fireworks, and more! With bonus educational content and Mandarin translations in the back to enhance your reading experience, How to Catch a Dragon is the perfect dragon book for kids ages 3-8! Dragons are a clever bunch, They're difficult to catch. You'll have to set the ultimate trap- But have you met your match? Also in the How to Catch Series: How to Catch a Unicorn How to Catch a Mermaid How to Catch a Dragon How to Catch a Monster How to Catch an Elf and more!",
+            "genres": ["Children's literature", "Fiction"], 
+            "price": 10.99,
+            "series": false, 
+            "title-of-series": "How to Catch"
+        }, 
+        {
+            "id": 3,
+            "title": "Zombies Don't Eat Veggies",
+            "author": "Jorge Lacera, Megan Lacera",
+            "illustrator": "Jorge Lacera, Megan Lacera", 
+            "description": "In this delightful debut by a talented husband-and-wife team, Mo Romero is a zombie with a deep, dark secret... Mo Romero is a zombie who loves nothing more than growing, cooking, and eating vegetables. Tomatoes? Tantalizing. Peppers? Pure perfection! The problem? Mo's parents insist that their niño eat only zombie cuisine, like arm-panadas and finger foods. They tell Mo over and over that zombies don't eat veggies. But Mo can't imagine a lifetime of just eating zombie food and giving up his veggies. As he questions his own zombie identity, Mo tries his best to convince his parents to give peas a chance. Super duo Megan and Jorge Lacera make their picture-book debut with this sweet story about family, self-discovery, and the power of acceptance. It's a delectable tale that zombie and nonzombie fans alike will devour.", 
+            "genres": ["Children's literature", "Fiction"], 
+            "price": 14.95,
+            "series": false, 
+            "title-of-series": ""
+        }, 
+        {
+            "id": 4,
+            "title": "The Case of the Missing Carrot Cake",
+            "author": "Robin Newman",
+            "illustrator": "Deborah Zemke", 
+            "description": "When Miss Rabbit leaves her carrot cake (with cream-cheese icing) out to cool and returns later to find only a mess of crumbs, she calls Detective Wilcox and Capt. Griswold. Over 100 animals on Ed's farm means there's a lot of suspects. Tongue firmly in cheek, Wilcox tells the story of this challenging case in clipped tones reminiscent of Dragnet.",
+            "genres": ["Mystery", "Children's literature", "Fiction", "Humor"], 
+            "price": 14.69,
+            "series": true, 
+            "title-of-series": "Wilcox and Griswold mystery"
+        }
+    ]
+}
